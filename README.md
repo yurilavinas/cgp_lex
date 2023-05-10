@@ -1,6 +1,6 @@
 # cgp_lex
 
-Repository to the paper **Evolving Graphs with Cartesian Genetic Programming with Lexicase Selection** accepted in the GECCO 2023 Workshop Graph-based Genetic Programming.
+Repository to the paper [**Evolving Graphs with Cartesian Genetic Programming with Lexicase Selection**](paper/2023_GECCO_CGP_LEX.pdf) accepted in the GECCO 2023 Workshop Graph-based Genetic Programming.
 
 # Function set
 
