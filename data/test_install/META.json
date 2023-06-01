@@ -1,0 +1,14 @@
+{
+    "name": "coins",
+    "scale": 1.0,
+    "label_name": "coin",
+    "mode": "dataframe",
+    "input": {
+        "type": "image",
+        "format": "grayscale"
+    },
+    "label": {
+        "type": "roi",
+        "format": "polygon"
+    }
+}

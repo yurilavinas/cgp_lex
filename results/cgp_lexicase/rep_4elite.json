@@ -1,0 +1,80 @@
+{
+    "dataset": {
+        "name": "coins",
+        "label_name": "coin",
+        "indices": null
+    },
+    "individual": {
+        "sequence": "[[0, 0, 0, 0, 0], [40, 0, 0, 137, 228], [16, 1, 0, 201, 237], [23, 0, 2, 6, 152], [21, 3, 3, 124, 191], [13, 4, 2, 110, 221], [27, 1, 2, 234, 79], [14, 1, 5, 49, 134], [26, 3, 2, 32, 193], [12, 8, 1, 106, 50], [11, 0, 3, 255, 178], [33, 0, 6, 92, 115], [5, 4, 3, 192, 25], [32, 1, 10, 229, 187], [36, 7, 0, 65, 68], [8, 7, 14, 91, 230], [1, 1, 4, 135, 159], [23, 9, 6, 176, 53], [21, 8, 0, 87, 189], [17, 1, 0, 211, 173], [16, 6, 15, 58, 130], [22, 9, 12, 207, 38], [7, 19, 1, 144, 246], [35, 10, 2, 150, 59], [27, 21, 21, 81, 145], [1, 2, 6, 151, 9], [37, 7, 13, 217, 141], [18, 3, 7, 112, 170], [13, 26, 17, 123, 157], [27, 4, 26, 103, 68], [41, 18, 4, 135, 54], [0, 2, 0, 0, 0]]",
+        "fitness": {
+            "fitness": 0.05539017763768313,
+            "time": 0.0010064601898193359,
+            "act_nodes": 2.0
+        }
+    },
+    "decoding": {
+        "metadata": {
+            "rows": 1,
+            "columns": 30,
+            "n_in": 1,
+            "n_out": 1,
+            "n_para": 2,
+            "n_conn": 2
+        },
+        "functions": [
+            "max",
+            "min",
+            "mean",
+            "add",
+            "subtract",
+            "bitwise_not",
+            "bitwise_or",
+            "bitwise_and",
+            "bitwise_and_mask",
+            "bitwise_xor",
+            "sqrt",
+            "pow2",
+            "exp",
+            "log",
+            "median_blur",
+            "gaussian_blur",
+            "laplacian",
+            "sobel",
+            "robert_cross",
+            "canny",
+            "sharpen",
+            "gabor",
+            "abs_diff",
+            "abs_diff2",
+            "fluo_tophat",
+            "rel_diff",
+            "erode",
+            "dilate",
+            "open",
+            "close",
+            "morph_gradient",
+            "morph_tophat",
+            "morph_blackhat",
+            "fill_holes",
+            "remove_small_objects",
+            "remove_small_holes",
+            "threshold",
+            "threshold_at_1",
+            "distance_transform",
+            "distance_transform_and_thresh",
+            "inrange_bin",
+            "inrange"
+        ],
+        "endpoint": {
+            "name": "Fit Ellipse",
+            "abbv": "ELPS",
+            "arity": 1,
+            "args": 0,
+            "kwargs": {
+                "min_axis": 20,
+                "max_axis": 60
+            }
+        },
+        "mode": "default"
+    }
+}

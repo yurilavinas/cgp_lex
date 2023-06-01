@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-image
+matplotlib
+numba
+numena
+seaborn
+umap-learn
+scikit-learn
