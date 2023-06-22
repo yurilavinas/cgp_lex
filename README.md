@@ -6,7 +6,7 @@ Repository to the paper [**Evolving Graphs with Cartesian Genetic Programming wi
 
 Here we list the functions set used. We first name the function and then its arity.
 
-## Functions form openCV
+## Functions from openCV
 - Max, arity: 2 
 - Min, arity: 2
 - Mean, arity: 2
